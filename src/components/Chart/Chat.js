@@ -18,7 +18,7 @@ const Chat = ({ location }) => {
 	const [users, setUsers] = useState([]);
 	const [error, setError] = useState(undefined);
 
-	const ENDPOINT = 'localhost:5000';
+	const ENDPOINT = 'https://chat-app-serverx.herokuapp.com/';
 
 	useEffect(() => {
 		const { name, room } = queryString.parse(location.search);
@@ -78,6 +78,7 @@ const Chat = ({ location }) => {
 					<TextContainer users={users} />
 				</div>
 			)}
+			<p className='footer'>Made with ❤️ by SIVA SANKAR</p>
 		</div>
 	);
 };

@@ -65,3 +65,9 @@
 .backgroundLight {
 	background: #f3f3f3;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.messageBox {
+		height: 66vh;
+	}
+}
