@@ -78,7 +78,6 @@ const Chat = ({ location }) => {
 					<TextContainer users={users} />
 				</div>
 			)}
-			<p className='footer'>Made with ❤️ by SIVA SANKAR</p>
 		</div>
 	);
 };
